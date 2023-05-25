@@ -1,0 +1,217 @@
+body{
+ margin: 0;
+ padding: 0;
+    height: 70vh;
+background-color:white;
+box-sizing: border-box;
+}
+header{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    background:linear-gradient(#92F5F9,#B3E4E6);
+    font-family: Futura LT Pro;
+    
+}
+.logo {
+    height: 40px;
+    width: 100%;
+    float: left;
+    text-align: left;
+    display: flex;
+}
+.logo img {
+    width: 200px;
+    height: 60px;
+    margin top: 0px;
+    margin-left: 80px;
+}
+.todo{
+display:flex;
+    
+    list-style: none;
+    justify-content: space-around;
+}
+.todo > li > a{
+    display: block;
+    padding: 20px 35px;
+    color: black;
+    text-decoration: none;
+}
+.todo > li:hover{
+    background-color: #A0B7DA;
+}
+.menu{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 300px;
+    background-color: rgba(0,0, 0, .5);
+   font-size:20px;    
+}
+.todo li:hover .menu{
+    display: block;
+}
+
+.menu li a{
+    display: block;
+    color: white;
+    padding: 10px 10px 10px 15px;
+    text-decoration: none;
+    height: 30px;
+
+}
+.opciones{
+    height: auto;
+    width: 15%;
+    float: right;
+    margin-top: 20px;
+    margin-left:50px;
+    
+}
+.opciones a{
+  color: black;
+  text-decoration: none;
+    margin: 20px;
+    padding: 15px; 
+    font-size: 20px;
+
+}
+.opciones2{
+    height: auto;
+    width: 15%;
+    float: right;
+    margin-top: 20px;
+    margin-left:50px;
+}
+.opciones2 a{
+  color: black;
+  text-decoration: none;
+    margin: 20px;
+    padding: 15px; 
+    font-size: 20px;
+   
+    
+}
+.opciones3{
+    height: auto;
+    width: 15%;
+    float: right;
+    margin-top: 20px;
+    margin-left:50px;
+}
+.opciones3 a{
+  color: black;
+  text-decoration: none;
+    margin: 20px;
+    padding: 15px; 
+    font-size: 20px;
+}
+
+
+.opciones4{
+    height: auto;
+    width: 15%;
+    float: right;
+    margin-top: 20px;
+    margin-left:50px;
+}
+.opciones4 a{
+  color: black;
+  text-decoration: none;
+    margin: 20px;
+    padding: 15px; 
+    font-size: 20px;
+}
+
+nav a{
+    font-weight: 500;
+}
+nav a:hover{
+    color:#E31231;
+
+}
+
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto{
+    margin-right: 50px;
+    padding-top: 5%;
+    margin-left: 3%;
+    font-family: Futura LT Pro;
+    
+}
+.texto h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.texto h1::after, .texto h1::before{
+    content:'';
+    position: absolute;
+    width: 120px;
+    height: 4px;
+    background-color: black;
+    top:23%;
+}
+.texto h1::before{
+    left: 35px;
+}
+.texto h1::after{
+    right: 770px;
+}
+
+
+.texto p{
+    font-size: 30px;
+}
+.imagen{
+    width: 750px;
+    height: 450px;
+    padding-top: 10%;
+    margin-right: 3%;
+}
+
+.porque{
+   width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center; 
+    font-family: Futura LT Pro;
+    float: 50%;
+}
+
+
+.porque h1{
+    text-align: center;
+    font-size: 50px;
+  margin-left: 1px;
+}
+.porque h1::after, .porque h1::before{
+    content:'';
+    position: absolute;
+    width: 120px;
+    height: 4px;
+    background-color: black;
+    top:101%;
+}
+.porque h1::before{
+    left: 255px;
+}
+.porque h1::after{
+    right: 255px;
+}
+
+
+
+.porque p{
+    text-align: justify-all;
+   font-size: 30px;
+    margin: 20px;
+    padding: 5%;
+}
